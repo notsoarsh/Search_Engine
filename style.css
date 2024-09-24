@@ -1,0 +1,122 @@
+/* style.css */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-right: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#search-input:focus {
+    border-color: #6a5acd;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #5a4dbc;
+}
+
+.search-history {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+#history-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#clear-history-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#clear-history-button:hover {
+    background-color: #e65a5a;
+}
